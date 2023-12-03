@@ -1,0 +1,214 @@
+.container{
+    position: absolute;
+    top: 2px;
+}
+.border-close{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    left: 50%;
+    top: 350px;
+    height: 340px;
+    border: 2px solid;
+    box-shadow: 0 3px 5px 0.1px #9b9898;
+    border-radius: 5px;
+    border-color: white ;
+}
+
+.container-content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 330px;
+    left: 5px;
+    transform: translate(-50%, -50%);
+    font-size: 2px;
+
+}
+
+.quote-container{
+    font-size: 28px;
+}
+
+.review{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 110px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+    font-stretch: expanded;
+}
+.circle-prop,
+.circle-placeholder,
+.quote,
+.quote-circle {
+    position: absolute;
+}
+
+div.border-class{
+    position: absolute;
+    color: #087bc7 ;
+    border: 0.8px solid;
+    width: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 130px;
+    transform: translate(-50% -50%);
+}
+
+.circle-prop{
+    bottom: 175px;
+    font-size: 120px;
+    color: #087bc7;
+    left: 187px;
+    
+}
+
+.circle-placeholder{
+    bottom: 173px;
+    left: 183px;
+    font-size: 120px;
+    color: #000000;
+}
+.quote{
+    font-size: 17px;
+    color: white;
+    rotate: 180deg;
+    top: 25px;
+    left: 190px;
+}
+.quote-circle{
+    border: 2px solid #087bc7;
+    border-radius: 200px;
+    background-color:#087bc7;
+    width: 24px;
+    bottom: 158px;
+    left: 186px;
+    top: 27px;
+    height: 24px;
+
+}
+
+
+.text{
+    font-size: 14px;
+    margin-top: 70px;
+    letter-spacing: 1px;
+}
+
+.text-2{
+    letter-spacing: 1px;
+    font-size: 9px;
+    color: rgb(7, 199, 212);
+    margin-top:5px;
+}
+
+.text-3{
+    font-size: 12px;
+    padding: 0 29px;
+}
+
+
+.previous{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    left: 230px;
+    bottom: 40px;
+    color: rgb(7, 199, 212);
+
+}
+.next{
+    position: absolute;
+    text-decoration: none;
+    font-size: 20px;
+    left: 250px;
+    bottom: 40px;
+    color: rgb(7, 199, 212);
+
+}
+
+.btn{
+    position: absolute;
+    top: 300px;
+    font-size: 10px;
+    font-weight: 400;
+    color: rgb(7, 199, 212);
+    background-color: rgb(242, 243, 243);
+    &:hover{
+    background-color: rgb(7, 199, 212);
+
+    }
+}
+
+.review-con{
+    text-align: center;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+
+
+img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    border-radius: 180px;
+    bottom: 199px;
+    left: 183px;
+}
+
+
+.icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: rgb(7, 199, 212);
+    font-size: 17px;
+}
+/* .text{
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 14px;
+    top: 20px;
+}
+
+.text-2{
+    position: absolute;
+    letter-spacing: 1px;
+    font-size: 9px;
+    left: 205px;
+    color: rgb(7, 199, 212);
+    margin-top:5px;
+}
+.text-3{
+    position: relative;
+    font-size: 12px;
+    padding: 29px;
+    margin-bottom: 20px;
+    text-align: center;
+    top: 0;
+}
+.text,text-2{
+    margin-top: 100px;
+
+}
+h1,h6, p {
+    margin: 4px;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+} */
